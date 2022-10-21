@@ -1,0 +1,243 @@
+[Preset.0]
+Active=1
+Comments=
+DefaultInPorts=MIDA00010014Roland Digital Piano
+Incoming0=None
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x40"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=Initialization
+Name0=variables start values
+Name1=New Translator
+Options0=Actv01Stop01OutO00StMa0000001Fsk=0label0015__cmt>// starting keyps=0label0014__cmt>// path settergl=0label000F__cmt>//go leftgr=0label0010__cmt>//go rightgu=0label000D__cmt>//go upgd=0label0010__cmt>// go downlabel0006__cmt>j1=0j2=0j3=0label0018__cmt>// keys of chord 1js=4label001C__cmt>// sum of chord 1 keyss1=0s2=0s3=0label0017__cmt>//keys of stair 1label0006__cmt>label0006__cmt>pw=0label0034__cmt>//pixel walk, the distance that will be walkedwa=0label002F__cmt>//walk accumulator, set when doing stairssv=0label0016__cmt>//stair velocity
+Options1=Actv01Stop00OutO00
+Outgoing0=None
+Outgoing1=None
+PresetSwitchIgnore=0
+
+[Preset.1]
+Active=1
+Comments=
+DefaultInPorts=MIDA00010014Roland Digital Piano
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x42"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x42"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming10=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming11=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x2A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming12=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2B"/><Value2 var="sv" Type="SetVar"/></Simple></Incoming>
+Incoming13=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x2B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming14=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x36"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming15=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming16=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3E"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming17=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x36"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming18=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x3B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming19=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x3E"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x32"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming20=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x23"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming21=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x23"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming22=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming23=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x2A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming24=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2B"/><Value2 var="tv" Type="SetVar"/></Simple></Incoming>
+Incoming25=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x2B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming26=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x37"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming27=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming28=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming29=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x37"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x36"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming30=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x3B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming31=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming32=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x23"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming33=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x23"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming34=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming35=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x2B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming36=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2D"/><Value2 var="uv" Type="SetVar"/></Simple></Incoming>
+Incoming37=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x2D"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming38=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x36"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming39=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming40=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3D"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming41=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x36"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming42=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x3A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming43=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x3D"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming44=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x25"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming45=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x25"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming46=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x28"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming47=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x28"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming48=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2A"/><Value2 var="vw" Type="SetVar"/></Simple></Incoming>
+Incoming49=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x2A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming5=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x32"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming50=MID1B0427F
+Incoming51=MID1B04200
+Incoming52=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming53=MID3<Incoming Action="MIDI"><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x00"/></Simple></Incoming>
+Incoming6=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x36"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming7=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x3B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming8=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x23"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming9=MID3<Incoming Action="MIDI"><Simple Type="NoteOff"><Channel num="0"/><Value1 num="0x23"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=Clicks and Moves
+Name0=F# press down
+Name1=F# press up
+Name10=Stair 1F on
+Name11=Stair 1F off
+Name12=Stair 1G on
+Name13=Stair 1G off
+Name14=Chord 2F# on
+Name15=Chord 2B on
+Name16=Chord 2D on
+Name17=Chord 2F# off
+Name18=Chord 2B off
+Name19=Chord 2D off
+Name2=Chord 1D
+Name20=Stair 2B on
+Name21=Stair 2B off
+Name22=Stair 2F# on
+Name23=Stair 2F# off
+Name24=Stair 2G on
+Name25=Stair 2G off
+Name26=Chord 3G down
+Name27=Chord 3B down
+Name28=Chord 3G' down
+Name29=Chord 3G up
+Name3=Chord 1F
+Name30=Chord 3B up
+Name31=Chord 3G' up
+Name32=Stair 3B on
+Name33=Stair 3B off
+Name34=Stair 3G on
+Name35=Stair 3G off
+Name36=Stair 3A on
+Name37=Stair 3A off
+Name38=Chord 4F# on
+Name39=Chord 4A# on
+Name4=Chord 1B
+Name40=Chord 4C# on
+Name41=Chord 4F# off
+Name42=Chord 4A# off
+Name43=Chord 4C# off
+Name44=Stair 4C# on
+Name45=Stair 4C# off
+Name46=Stair 4E on
+Name47=Stair 4E off
+Name48=Stair 4F# on
+Name49=Stair 4F# off
+Name5=Chord 1D
+Name50=Final Kick down
+Name51=Final Kick up
+Name52=Left Pedal to F5
+Name53=Left Pedal to F5
+Name6=Chord 1F
+Name7=Chord 1B
+Name8=Stair 1B on
+Name9=Stair 1B off
+Options0=Actv01Stop00OutO00StMa00000005sk=1label0028__cmt>//start key = F#4 has been pressedps=0label0006__cmt>label0006__cmt>
+Options1=Actv01Stop00OutO00StMa00000005sk=0label0029__cmt>//start key = F#4 has been releasedps=1label0039__cmt>// path setter is active and waiting for directionslabel0006__cmt>
+Options10=Actv01Stop00OutO00StMa00000005if(s1==1)s2=1s1=0label0035__cmt>//second note (2) of first stair (s) is pressedwl=0label0006__cmt>
+Options11=Actv01Stop00OutO00StMa00000005s2=0label0036__cmt>//second note (2) of first stair (s) is releasedlabel0006__cmt>label0006__cmt>label0006__cmt>
+Options12=Actv01Stop00OutO00StMa00000007if(s2==1)s3=1label0034__cmt>//third note (2) of first stair (s) is pressedif(s3==1)wl=0-svlabel0035__cmt>//stair velocity is set with force of key presss2=0s3=0label0006__cmt>
+Options13=Actv01Stop00OutO00StMa00000009s3=0label0035__cmt>//third note (3) of first stair (s) is releasedjs=0js=js+j1js=js+j2js=js+j3if(js<3)gl=0if(gl==0)ps=0label0006__cmt>
+Options14=Actv01Stop00OutO00StMa0000000Ak1=1label0035__cmt>//first note (1) of second chord (k) is pressedif(ps==1)ks=0if(ps==0)ks=4ks=ks+k1ks=ks+k2ks=ks+k3if(ks==3)gr=1if(ks<3)gr=0label0006__cmt>
+Options15=Actv01Stop00OutO00StMa0000000Ak2=1label0036__cmt>//second note (2) of second chord (k) is pressedif(ps==1)ks=0if(ps==0)ks=4ks=ks+k1ks=ks+k2ks=ks+k3if(ks==3)gr=1if(ks<3)gr=0label0006__cmt>
+Options16=Actv01Stop00OutO00StMa0000000Ek3=1label0035__cmt>//third note (3) of second chord (k) is pressedif(ps==1)ks=0if(ps==0)ks=4ks=ks+k1ks=ks+k2ks=ks+k3if(ks==3)gr=1if(ks<3)gr=0label0016__cmt>//Anti-conflict:label0022__cmt>//Reset all other directionswl=0wu=0wd=0
+Options17=Actv01Stop00OutO00StMa00000002k1=0label0036__cmt>//first note (1) of second chord (k) is released
+Options18=Actv01Stop00OutO00StMa00000002k2=0label0037__cmt>//second note (2) of second chord (k) is released
+Options19=Actv01Stop00OutO00StMa00000002k3=0label0036__cmt>//third note (3) of second chord (k) is released
+Options2=Actv01Stop00OutO00StMa0000000Ej1=1label0034__cmt>//first note (1) of first chord (j) is pressedif(ps==1)js=0if(ps==0)js=4js=js+j1js=js+j2js=js+j3if(js==3)gl=1if(js<3)gl=0label0016__cmt>//Anti-conflict:label0022__cmt>//Reset all other directionswr=0wu=0wd=0
+Options20=Actv01Stop00OutO00StMa00000002if(gr==1)t1=1label0035__cmt>//first note (1) of second stair (t) is pressed
+Options21=Actv00Stop00OutO00StMa00000003t1=0label0036__cmt>//first note (1) of second stair (t) is releasedlabel0006__cmt>
+Options22=Actv01Stop00OutO00StMa00000005if(t1==1)t2=1t1=0label0036__cmt>//second note (2) of second stair (t) is pressedwr=0label0006__cmt>
+Options23=Actv01Stop00OutO00StMa00000005t2=0label0037__cmt>//second note (2) of second stair (t) is releasedlabel0006__cmt>label0006__cmt>label0006__cmt>
+Options24=Actv01Stop00OutO00StMa00000006if(t2==1)t3=1label0035__cmt>//third note (2) of second stair (t) is pressedif(t3==1)wr=tvlabel0035__cmt>//stair velocity is set with force of key presst2=0t3=0
+Options25=Actv01Stop00OutO00StMa00000009t3=0label0036__cmt>//third note (3) of second stair (k) is releasedks=0ks=ks+k1ks=ks+k2ks=ks+k3if(ks<3)gr=0if(gr==0)ps=0label0006__cmt>
+Options26=Actv01Stop00OutO00StMa0000000Al1=1label0034__cmt>//first note (1) of third chord (l) is pressedif(ps==1)ls=0if(ps==0)ls=4ls=ls+l1ls=ls+l2ls=ls+l3if(ls==3)gu=1if(ls<3)gu=0label0006__cmt>
+Options27=Actv01Stop00OutO00StMa0000000Al2=1label0035__cmt>//second note (2) of third chord (l) is pressedif(ps==1)ls=0if(ps==0)ls=4ls=ls+l1ls=ls+l2ls=ls+l3if(ls==3)gu=1if(ls<3)gu=0label0006__cmt>
+Options28=Actv01Stop00OutO00StMa0000000El3=1label0034__cmt>//third note (3) of third chord (l) is pressedif(ps==1)ls=0if(ps==0)ls=4ls=ls+l1ls=ls+l2ls=ls+l3if(ls==3)gu=1if(ls<3)gu=0label0016__cmt>//Anti-conflict:label0022__cmt>//Reset all other directionswl=0wr=0wd=0
+Options29=Actv01Stop00OutO00StMa00000002l1=0label0035__cmt>//first note (1) of third chord (l) is released
+Options3=Actv01Stop00OutO00StMa0000000Aj2=1label0035__cmt>//second note (2) of first chord (j) is pressedif(ps==1)js=0if(ps==0)js=4js=js+j1js=js+j2js=js+j3if(js==3)gl=1if(js<3)gl=0label0006__cmt>
+Options30=Actv01Stop00OutO00StMa00000002l2=0label0036__cmt>//second note (2) of third chord (l) is released
+Options31=Actv01Stop00OutO00StMa00000002l3=0label0035__cmt>//third note (3) of third chord (l) is released
+Options32=Actv01Stop00OutO00StMa00000002if(gu==1)u1=1label0034__cmt>//first note (1) of third stair (u) is pressed
+Options33=Actv00Stop00OutO00StMa00000003s1=0label0035__cmt>//first note (1) of first stair (s) is releasedlabel0006__cmt>
+Options34=Actv01Stop00OutO00StMa00000005if(u1==1)u2=1u1=0label0035__cmt>//second note (2) of third stair (u) is pressedwu=0label0006__cmt>
+Options35=Actv01Stop00OutO00StMa00000005u2=0label0036__cmt>//second note (2) of third stair (u) is releasedlabel0006__cmt>label0006__cmt>label0006__cmt>
+Options36=Actv01Stop00OutO00StMa00000006if(u2==1)u3=1label0034__cmt>//third note (2) of third stair (u) is pressedif(u3==1)wu=0-svlabel0035__cmt>//stair velocity is set with force of key pressu2=0u3=0
+Options37=Actv01Stop00OutO00StMa00000009u3=0label0035__cmt>//third note (3) of third stair (u) is releasedls=0ls=ls+l1ls=ls+l2ls=ls+l3if(ls<3)gu=0if(gu==0)ps=0label0006__cmt>
+Options38=Actv01Stop00OutO00StMa0000000Am1=1label0035__cmt>//first note (1) of fourth chord (m) is pressedif(ps==1)ms=0if(ps==0)ms=4ms=ms+m1ms=ms+m2ms=ms+m3if(ms==3)gd=1if(ms<3)gd=0label0006__cmt>
+Options39=Actv01Stop00OutO00StMa0000000Em2=1label0036__cmt>//second note (2) of fourth chord (m) is pressedif(ps==1)ms=0if(ps==0)ms=4ms=ms+m1ms=ms+m2ms=ms+m3if(ms==3)gd=1if(ms<3)gd=0label0016__cmt>//Anti-conflict:label0022__cmt>//Reset all other directionswl=0wr=0wu=0
+Options4=Actv01Stop00OutO00StMa00000009j3=1label0034__cmt>//third note (3) of first chord (j) is pressedif(ps==1)js=0if(ps==0)js=4js=js+j1js=js+j2js=js+j3if(js==3)gl=1if(js<3)gl=0
+Options40=Actv01Stop00OutO00StMa00000009m3=1label0035__cmt>//third note (3) of fourth chord (m) is pressedif(ps==1)ms=0if(ps==0)ms=4ms=ms+m1ms=ms+m2ms=ms+m3if(ms==3)gd=1if(ms<3)gd=0
+Options41=Actv01Stop00OutO00StMa00000002m1=0label0036__cmt>//first note (1) of fourth chord (m) is released
+Options42=Actv01Stop00OutO00StMa00000002m2=0label0037__cmt>//second note (2) of fourth chord (m) is released
+Options43=Actv01Stop00OutO00StMa00000002m3=0label0036__cmt>//third note (3) of fourth chord (m) is released
+Options44=Actv01Stop00OutO00StMa00000002if(gd==1)v1=1label0035__cmt>//first note (1) of fourth stair (v) is pressed
+Options45=Actv00Stop00OutO00StMa00000003v1=0label0036__cmt>//first note (1) of fourth stair (v) is releasedlabel0006__cmt>
+Options46=Actv01Stop00OutO00StMa00000005if(v1==1)v2=1v1=0label0036__cmt>//second note (2) of fourth stair (v) is pressedwd=0label0006__cmt>
+Options47=Actv01Stop00OutO00StMa00000005v2=0label0037__cmt>//second note (2) of fourth stair (v) is releasedlabel0006__cmt>label0006__cmt>label0006__cmt>
+Options48=Actv01Stop00OutO00StMa00000006if(v2==1)v3=1label0035__cmt>//third note (3) of fourth stair (v) is pressedif(v3==1)wd=vwlabel0035__cmt>//stair velocity is set with force of key pressv2=0v3=0
+Options49=Actv01Stop00OutO00StMa00000009v3=0label0036__cmt>//third note (3) of fourth stair (v) is releasedms=0ms=ms+m1ms=ms+m2ms=ms+m3if(ms<3)gd=0if(gd==0)ps=0label0006__cmt>
+Options5=Actv01Stop00OutO00StMa00000002j1=0label0035__cmt>//first note (1) of first chord (j) is released
+Options50=Actv01Stop00OutO00
+Options51=Actv01Stop00OutO00
+Options52=Actv01Stop00OutO00
+Options53=Actv01Stop00OutO00
+Options6=Actv01Stop00OutO00StMa00000002j2=0label0036__cmt>//second note (2) of first chord (j) is released
+Options7=Actv01Stop00OutO00StMa00000002j3=0label0035__cmt>//third note (3) of first chord (j) is released
+Options8=Actv01Stop00OutO00StMa00000002if(gl==1)s1=1label0034__cmt>//first note (1) of first stair (s) is pressed
+Options9=Actv00Stop00OutO00StMa00000003s1=0label0035__cmt>//first note (1) of first stair (s) is releasedlabel0006__cmt>
+Outgoing0=Mse10300
+Outgoing1=Mse10400
+Outgoing10=None
+Outgoing11=None
+Outgoing12=Mse200wl:0
+Outgoing13=None
+Outgoing14=None
+Outgoing15=None
+Outgoing16=None
+Outgoing17=None
+Outgoing18=None
+Outgoing19=None
+Outgoing2=None
+Outgoing20=None
+Outgoing21=None
+Outgoing22=None
+Outgoing23=None
+Outgoing24=Mse200wr:0
+Outgoing25=None
+Outgoing26=None
+Outgoing27=None
+Outgoing28=None
+Outgoing29=None
+Outgoing3=None
+Outgoing30=None
+Outgoing31=None
+Outgoing32=None
+Outgoing33=None
+Outgoing34=None
+Outgoing35=None
+Outgoing36=Mse2000:wu
+Outgoing37=None
+Outgoing38=None
+Outgoing39=None
+Outgoing4=None
+Outgoing40=None
+Outgoing41=None
+Outgoing42=None
+Outgoing43=None
+Outgoing44=None
+Outgoing45=None
+Outgoing46=None
+Outgoing47=None
+Outgoing48=Mse2000:wd
+Outgoing49=None
+Outgoing5=None
+Outgoing50=Mse10300
+Outgoing51=Mse10400
+Outgoing52=KAM11000KSQ10001074
+Outgoing53=KAM12100KSQ10001074
+Outgoing6=None
+Outgoing7=None
+Outgoing8=None
+Outgoing9=None
+PresetSwitchIgnore=0
+
+[Project]
+DefaultInPorts=MIDA0000
+DefaultOutPorts=MIDA0000
+Version=2
+
