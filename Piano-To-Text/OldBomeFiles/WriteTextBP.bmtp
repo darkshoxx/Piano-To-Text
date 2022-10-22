@@ -1,0 +1,226 @@
+; ------- Bome MIDI Translator: signed project file
+; ------- You can modify this file as you like, but that will invalidate the
+; ------- signature so that it cannot be opened in the BomeBox or MT Player anymore.
+;
+[Preset.0]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x16"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x17"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x18"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x19"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=PRESET SELECTOR
+Name0=Select Preset
+Name1=Select Mouse
+Name2=Select Alphabet
+Name3=Select XML
+Name4=Select XDL
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00
+Options2=Actv01Stop00OutO00
+Options3=Actv01Stop00OutO00
+Options4=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+Outgoing1=Pres020005Mouse
+Outgoing2=Pres020008Alphabet
+Outgoing3=Pres020003XML
+Outgoing4=Pres020003XDL
+PresetSwitchIgnore=0
+
+[Preset.1]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=Mouse
+Name0=Select Preset
+Options0=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+PresetSwitchIgnore=0
+
+[Preset.2]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="57" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming10=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="72" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming11=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="74" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming12=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="76" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming13=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="77" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming14=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="79" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming15=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="81" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming16=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="83" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming17=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="84" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming18=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="86" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming19=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="88" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="59" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming20=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="89" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming21=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="91" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming22=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="93" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming23=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="95" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming24=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="96" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming25=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="98" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming26=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="100" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming27=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6C"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming28=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming29=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="60" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="62" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming5=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="64" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming6=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="65" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming7=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="67" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming8=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="69" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming9=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="71" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Name=Alphabet
+Name0=Select Preset
+Name1=a
+Name10=j
+Name11=k
+Name12=l
+Name13=m
+Name14=n
+Name15=o
+Name16=p
+Name17=q
+Name18=r
+Name19=s
+Name2=b
+Name20=t
+Name21=u
+Name22=v
+Name23=w
+Name24=x
+Name25=y
+Name26=z
+Name27=Backspace
+Name28=Enter
+Name29=Space
+Name3=c
+Name4=d
+Name5=e
+Name6=f
+Name7=g
+Name8=h
+Name9=i
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options10=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options11=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options12=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options13=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options14=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options15=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options16=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options17=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options18=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options19=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options2=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options20=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options21=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options22=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options23=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options24=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options25=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options26=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options27=Actv01Stop00OutO00
+Options28=Actv01Stop00OutO00
+Options29=Actv01Stop00OutO00
+Options3=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options4=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options5=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options6=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options7=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options8=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options9=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Outgoing0=Pres02000FPRESET SELECTOR
+Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="a"/></Keys></Outgoing>
+Outgoing10=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="j"/></Keys></Outgoing>
+Outgoing11=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="k"/></Keys></Outgoing>
+Outgoing12=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="l"/></Keys></Outgoing>
+Outgoing13=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="m"/></Keys></Outgoing>
+Outgoing14=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="n"/></Keys></Outgoing>
+Outgoing15=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="o"/></Keys></Outgoing>
+Outgoing16=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="p"/></Keys></Outgoing>
+Outgoing17=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="q"/></Keys></Outgoing>
+Outgoing18=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="r"/></Keys></Outgoing>
+Outgoing19=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="s"/></Keys></Outgoing>
+Outgoing2=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="b"/></Keys></Outgoing>
+Outgoing20=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="t"/></Keys></Outgoing>
+Outgoing21=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="u"/></Keys></Outgoing>
+Outgoing22=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="v"/></Keys></Outgoing>
+Outgoing23=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="w"/></Keys></Outgoing>
+Outgoing24=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="x"/></Keys></Outgoing>
+Outgoing25=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="y"/></Keys></Outgoing>
+Outgoing26=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="z"/></Keys></Outgoing>
+Outgoing27=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="8"/><Key Release="Y" VK="8"/></Keys></Outgoing>
+Outgoing28=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="13"/><Key Release="Y" VK="13"/></Keys></Outgoing>
+Outgoing29=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char=" "/></Keys></Outgoing>
+Outgoing3=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="c"/></Keys></Outgoing>
+Outgoing4=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="d"/></Keys></Outgoing>
+Outgoing5=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="e"/></Keys></Outgoing>
+Outgoing6=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="f"/></Keys></Outgoing>
+Outgoing7=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="g"/></Keys></Outgoing>
+Outgoing8=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="h"/></Keys></Outgoing>
+Outgoing9=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="i"/></Keys></Outgoing>
+PresetSwitchIgnore=0
+
+[Preset.3]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6C"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=XML
+Name0=Backspace
+Name1=Enter
+Name2=Space
+Name3=Select Preset
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00
+Options2=Actv01Stop00OutO00
+Options3=Actv01Stop00OutO00
+Outgoing0=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="8"/><Key Release="Y" VK="8"/></Keys></Outgoing>
+Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="13"/><Key Release="Y" VK="13"/></Keys></Outgoing>
+Outgoing2=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char=" "/></Keys></Outgoing>
+Outgoing3=Pres02000FPRESET SELECTOR
+PresetSwitchIgnore=0
+
+[Preset.4]
+Active=1
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6C"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x69"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=XDL
+Name0=Backspace
+Name1=Enter
+Name2=Space
+Name3=Select Preset
+Name4=Boilerplate
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00
+Options2=Actv01Stop00OutO00
+Options3=Actv01Stop00OutO00
+Options4=Actv01Stop00OutO00
+Outgoing0=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="8"/><Key Release="Y" VK="8"/></Keys></Outgoing>
+Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="13"/><Key Release="Y" VK="13"/></Keys></Outgoing>
+Outgoing2=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char=" "/></Keys></Outgoing>
+Outgoing3=Pres02000FPRESET SELECTOR
+Outgoing4=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="&lt;"/><Key Char="X"/><Key Char="D"/><Key Char="L"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char="&lt;"/><Key Char="S"/><Key Char="y"/><Key Char="n"/><Key Char="t"/><Key Char="h"/><Key Char="e"/><Key Char="s"/><Key Char="i"/><Key Char="s"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="H"/><Key Char="a"/><Key Char="r"/><Key Char="d"/><Key Char="w"/><Key Char="a"/><Key Char="r"/><Key Char="e"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="C"/><Key Char="o"/><Key Char="m"/><Key Char="p"/><Key Char="o"/><Key Char="n"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char=" "/><Key Char="i"/><Key Char="d"/><Key Char="="/><Key Char="&quot;"/><Key Char="r"/><Key Char="e"/><Key Char="a"/><Key Char="c"/><Key Char="t"/><Key Char="o"/><Key Char="r"/><Key Char="&quot;"/><Key Char=" "/><Key Char="t"/><Key Char="y"/><Key Char="p"/><Key Char="e"/><Key Char="="/><Key Char="&quot;"/><Key Char="r"/><Key Char="e"/><Key Char="a"/><Key Char="c"/><Key Char="t"/><Key Char="o"/><Key Char="r"/><Key Char="&quot;"/><Key Char="/"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="/"/><Key Char="H"/><Key Char="a"/><Key Char="r"/><Key Char="d"/><Key Char="w"/><Key Char="a"/><Key Char="r"/><Key Char="e"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="R"/><Key Char="e"/><Key Char="a"/><Key Char="g"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char="s"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="R"/><Key Char="e"/><Key Char="a"/><Key Char="g"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char=" "/><Key Char="n"/><Key Char="a"/><Key Char="m"/><Key Char="e"/><Key Char="="/><Key Char="&quot;"/><Key Char="w"/><Key Char="a"/><Key Char="t"/><Key Char="e"/><Key Char="r"/><Key Char="&quot;"/><Key Char=" "/><Key Char="r"/><Key Char="o"/><Key Char="l"/><Key Char="e"/><Key Char="="/><Key Char="&quot;"/><Key Char="s"/><Key Char="o"/><Key Char="l"/><Key Char="v"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char="&quot;"/><Key Char="/"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="/"/><Key Char="R"/><Key Char="e"/><Key Char="a"/><Key Char="g"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char="s"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="P"/><Key Char="r"/><Key Char="o"/><Key Char="c"/><Key Char="e"/><Key Char="d"/><Key Char="u"/><Key Char="r"/><Key Char="e"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="/"/><Key Char="P"/><Key Char="r"/><Key Char="o"/><Key Char="c"/><Key Char="e"/><Key Char="d"/><Key Char="u"/><Key Char="r"/><Key Char="e"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char="&lt;"/><Key Char="/"/><Key Char="S"/><Key Char="y"/><Key Char="n"/><Key Char="t"/><Key Char="h"/><Key Char="e"/><Key Char="s"/><Key Char="i"/><Key Char="s"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char="&lt;"/><Key Char="/"/><Key Char="X"/><Key Char="D"/><Key Char="L"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/></Keys></Outgoing>
+PresetSwitchIgnore=0
+
+[Project]
+Author=Daniel Gahler
+Comments=Typing individual letters with EPiano
+DefaultInPorts=MIDA00010014Roland Digital Piano
+DefaultOutPorts=MIDA0000
+Version=2
+
+[Signatures]
+SigName-1=[Midi Translator Pro Internal]
+Signature-1=i0puEy0EAfGsHf6K3TecwMYJje/gv7n6ZQN0jkAVhtTYJUq/Vio1evHjbSQGrn+ccMZDpjL2vkINIzwvBfI792v6Nj1qDNtzimOaJgD1QnnKjNy3kv0e78p9r/jetHtC6QVMzD4qQ3OKWBjMQZeOINWRkYbvN3ZfO+WPUOhtpt8=
+SignedBy-1=University of Glasgow
+

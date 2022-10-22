@@ -1,0 +1,102 @@
+; ------- Bome MIDI Translator: signed project file
+; ------- You can modify this file as you like, but that will invalidate the
+; ------- signature so that it cannot be opened in the BomeBox or MT Player anymore.
+;
+[Preset.0]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x16"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x17"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x18"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x19"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=PRESET SELECTOR
+Name0=Select Preset
+Name1=Select Mouse
+Name2=Select Alphabet
+Name3=Select XML
+Name4=Select XDL
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00
+Options2=Actv01Stop00OutO00
+Options3=Actv01Stop00OutO00
+Options4=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+Outgoing1=Pres020005Mouse
+Outgoing2=Pres020008Alphabet
+Outgoing3=Pres020003XML
+Outgoing4=Pres020003XDL
+PresetSwitchIgnore=0
+
+[Preset.1]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=Mouse
+Name0=Select Preset
+Options0=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+PresetSwitchIgnore=0
+
+[Preset.2]
+Active=1
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="57" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="59" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="100" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6C"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming5=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=Alphabet
+Name0=Select Preset
+Name1=a
+Name2=b
+Name3=z
+Name4=Backspace
+Name5=Enter
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options2=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options3=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options4=Actv01Stop00OutO00
+Options5=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="a"/></Keys></Outgoing>
+Outgoing2=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="b"/></Keys></Outgoing>
+Outgoing3=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="z"/></Keys></Outgoing>
+Outgoing4=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="8"/><Key Release="Y" VK="8"/></Keys></Outgoing>
+Outgoing5=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="13"/><Key Release="Y" VK="13"/></Keys></Outgoing>
+PresetSwitchIgnore=0
+
+[Preset.3]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=XML
+Name0=Select Preset
+Options0=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+PresetSwitchIgnore=0
+
+[Preset.4]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=XDL
+Name0=Select Preset
+Options0=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+PresetSwitchIgnore=0
+
+[Project]
+Author=Daniel Gahler
+Comments=Typing individual letters with EPiano
+DefaultInPorts=MIDA00010014Roland Digital Piano
+DefaultOutPorts=MIDA0000
+Version=2
+
+[Signatures]
+SigName-1=[Midi Translator Pro Internal]
+Signature-1=dNLPFjQMvWgriWtfi50luGYsTxoDu+krgPV13zhEu52DcVdhyrdX4ESwxTy/8XS7epCtbqN/hgLe3Dj08nGqtdIDULDrhqRsv1tXzkulLlmFeHvU/2Dp3tclcw46E5tITYyR4kFeIrg6D/X0WGLxliP8JrhdSwqahSTZJxpJCHc=
+SignedBy-1=University of Glasgow
+

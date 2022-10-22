@@ -1,0 +1,354 @@
+; ------- Bome MIDI Translator: signed project file
+; ------- You can modify this file as you like, but that will invalidate the
+; ------- signature so that it cannot be opened in the BomeBox or MT Player anymore.
+;
+[Preset.0]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x16"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x17"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x18"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x19"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=PRESET SELECTOR
+Name0=Select Preset
+Name1=Select Mouse
+Name2=Select Alphabet
+Name3=Select XML
+Name4=Select XDL
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00
+Options2=Actv01Stop00OutO00
+Options3=Actv01Stop00OutO00
+Options4=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+Outgoing1=Pres020005Mouse
+Outgoing2=Pres020008Alphabet
+Outgoing3=Pres020003XML
+Outgoing4=Pres020003XDL
+PresetSwitchIgnore=0
+
+[Preset.1]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=Mouse
+Name0=Select Preset
+Options0=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+PresetSwitchIgnore=0
+
+[Preset.2]
+Active=1
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="36" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming10=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="46" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming11=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2F"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming12=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x30"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming13=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x31"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming14=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x33"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming15=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x32"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming16=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x34"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming17=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6C"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming18=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming19=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="37" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming20=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="57" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming21=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="59" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming22=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="60" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming23=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="62" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming24=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="64" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming25=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="65" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming26=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="67" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming27=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="69" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming28=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="71" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming29=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="72" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="38" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming30=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="74" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming31=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="76" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming32=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="77" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming33=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="79" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming34=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="81" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming35=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="83" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming36=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="84" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming37=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="86" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming38=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="88" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming39=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="89" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="39" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming40=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="91" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming41=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="93" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming42=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="95" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming43=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="96" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming44=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="98" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming45=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="100" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming5=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="40" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming6=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="42" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming7=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="43" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming8=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="44" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Incoming9=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0" Type="New Version Required"/><Value1 num="45" setvar="oo" Type="New Version Required"/></Simple></Incoming>
+Name=Alphabet
+Name0=Select Preset
+Name1=Zero
+Name10=Nine
+Name11=CAPS
+Name12=Left
+Name13=Up
+Name14=Up
+Name15=Down
+Name16=Right
+Name17=Backspace
+Name18=Enter
+Name19=Space
+Name2=One
+Name20=a
+Name21=b
+Name22=c
+Name23=d
+Name24=e
+Name25=f
+Name26=g
+Name27=h
+Name28=i
+Name29=j
+Name3=Two
+Name30=k
+Name31=l
+Name32=m
+Name33=n
+Name34=o
+Name35=p
+Name36=q
+Name37=r
+Name38=s
+Name39=t
+Name4=Three
+Name40=u
+Name41=v
+Name42=w
+Name43=x
+Name44=y
+Name45=z
+Name5=Four
+Name6=Five
+Name7=Six
+Name8=Seven
+Name9=Eight
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options10=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options11=Actv01Stop00OutO00
+Options12=Actv01Stop00OutO00
+Options13=Actv01Stop00OutO00
+Options14=Actv01Stop00OutO00
+Options15=Actv01Stop00OutO00
+Options16=Actv01Stop00OutO00
+Options17=Actv01Stop00OutO00
+Options18=Actv01Stop00OutO00
+Options19=Actv01Stop00OutO00
+Options2=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options20=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options21=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options22=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options23=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options24=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options25=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options26=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options27=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options28=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options29=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options3=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options30=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options31=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options32=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options33=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options34=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options35=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options36=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options37=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options38=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options39=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options4=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options40=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options41=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options42=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options43=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options44=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options45=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options5=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options6=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options7=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options8=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Options9=Actv01Stop00OutO00StMa00000001label0006__cmt>
+Outgoing0=Pres02000FPRESET SELECTOR
+Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="96"/><Key Release="Y" VK="96"/></Keys></Outgoing>
+Outgoing10=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="105"/><Key Release="Y" VK="105"/></Keys></Outgoing>
+Outgoing11=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="20"/><Key Release="Y" VK="20"/></Keys></Outgoing>
+Outgoing12=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="37"/><Key Release="Y" Ext="Y" VK="37"/></Keys></Outgoing>
+Outgoing13=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="38"/><Key Release="Y" Ext="Y" VK="38"/></Keys></Outgoing>
+Outgoing14=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="38"/><Key Release="Y" Ext="Y" VK="38"/></Keys></Outgoing>
+Outgoing15=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="40"/><Key Release="Y" Ext="Y" VK="40"/></Keys></Outgoing>
+Outgoing16=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="39"/><Key Release="Y" Ext="Y" VK="39"/></Keys></Outgoing>
+Outgoing17=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="8"/><Key Release="Y" VK="8"/></Keys></Outgoing>
+Outgoing18=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="13"/><Key Release="Y" VK="13"/></Keys></Outgoing>
+Outgoing19=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char=" "/></Keys></Outgoing>
+Outgoing2=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="97"/><Key Release="Y" VK="97"/></Keys></Outgoing>
+Outgoing20=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="a"/></Keys></Outgoing>
+Outgoing21=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="b"/></Keys></Outgoing>
+Outgoing22=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="c"/></Keys></Outgoing>
+Outgoing23=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="d"/></Keys></Outgoing>
+Outgoing24=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="e"/></Keys></Outgoing>
+Outgoing25=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="f"/></Keys></Outgoing>
+Outgoing26=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="g"/></Keys></Outgoing>
+Outgoing27=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="h"/></Keys></Outgoing>
+Outgoing28=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="i"/></Keys></Outgoing>
+Outgoing29=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="j"/></Keys></Outgoing>
+Outgoing3=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="98"/><Key Release="Y" VK="98"/></Keys></Outgoing>
+Outgoing30=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="k"/></Keys></Outgoing>
+Outgoing31=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="l"/></Keys></Outgoing>
+Outgoing32=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="m"/></Keys></Outgoing>
+Outgoing33=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="n"/></Keys></Outgoing>
+Outgoing34=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="o"/></Keys></Outgoing>
+Outgoing35=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="p"/></Keys></Outgoing>
+Outgoing36=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="q"/></Keys></Outgoing>
+Outgoing37=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="r"/></Keys></Outgoing>
+Outgoing38=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="s"/></Keys></Outgoing>
+Outgoing39=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="t"/></Keys></Outgoing>
+Outgoing4=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="99"/><Key Release="Y" VK="99"/></Keys></Outgoing>
+Outgoing40=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="u"/></Keys></Outgoing>
+Outgoing41=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="v"/></Keys></Outgoing>
+Outgoing42=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="w"/></Keys></Outgoing>
+Outgoing43=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="x"/></Keys></Outgoing>
+Outgoing44=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="y"/></Keys></Outgoing>
+Outgoing45=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="z"/></Keys></Outgoing>
+Outgoing5=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="100"/><Key Release="Y" VK="100"/></Keys></Outgoing>
+Outgoing6=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="101"/><Key Release="Y" VK="101"/></Keys></Outgoing>
+Outgoing7=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="102"/><Key Release="Y" VK="102"/></Keys></Outgoing>
+Outgoing8=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="103"/><Key Release="Y" VK="103"/></Keys></Outgoing>
+Outgoing9=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="104"/><Key Release="Y" VK="104"/></Keys></Outgoing>
+PresetSwitchIgnore=0
+
+[Preset.3]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2F"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x30"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x31"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x33"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming5=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x32"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming6=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x34"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming7=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6C"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming8=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming9=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=XML
+Name0=Select Preset
+Name1=CAPS
+Name2=Left
+Name3=Up
+Name4=Up
+Name5=Down
+Name6=Right
+Name7=Backspace
+Name8=Enter
+Name9=Space
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00
+Options2=Actv01Stop00OutO00
+Options3=Actv01Stop00OutO00
+Options4=Actv01Stop00OutO00
+Options5=Actv01Stop00OutO00
+Options6=Actv01Stop00OutO00
+Options7=Actv01Stop00OutO00
+Options8=Actv01Stop00OutO00
+Options9=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="20"/><Key Release="Y" VK="20"/></Keys></Outgoing>
+Outgoing2=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="37"/><Key Release="Y" Ext="Y" VK="37"/></Keys></Outgoing>
+Outgoing3=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="38"/><Key Release="Y" Ext="Y" VK="38"/></Keys></Outgoing>
+Outgoing4=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="38"/><Key Release="Y" Ext="Y" VK="38"/></Keys></Outgoing>
+Outgoing5=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="40"/><Key Release="Y" Ext="Y" VK="40"/></Keys></Outgoing>
+Outgoing6=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="39"/><Key Release="Y" Ext="Y" VK="39"/></Keys></Outgoing>
+Outgoing7=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="8"/><Key Release="Y" VK="8"/></Keys></Outgoing>
+Outgoing8=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="13"/><Key Release="Y" VK="13"/></Keys></Outgoing>
+Outgoing9=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char=" "/></Keys></Outgoing>
+PresetSwitchIgnore=0
+
+[Preset.4]
+Active=0
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x15"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x2F"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming10=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x5F"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming11=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x60"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming12=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x62"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming13=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x64"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming14=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x69"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming2=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x30"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming3=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x31"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming4=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x33"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming5=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x32"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming6=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x34"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming7=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6C"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming8=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6B"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Incoming9=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x6A"/><Value2 num="0x00" Type="Any"/></Simple></Incoming>
+Name=XDL
+Name0=Select Preset
+Name1=CAPS
+Name10=Reactor
+Name11=Add
+Name12=HeatChill
+Name13=Transfer
+Name14=Boilerplate
+Name2=Left
+Name3=Up
+Name4=Up
+Name5=Down
+Name6=Right
+Name7=Backspace
+Name8=Enter
+Name9=Space
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop00OutO00
+Options10=Actv01Stop00OutO00
+Options11=Actv01Stop00OutO00
+Options12=Actv01Stop00OutO00
+Options13=Actv01Stop00OutO00
+Options14=Actv01Stop00OutO00
+Options2=Actv01Stop00OutO00
+Options3=Actv01Stop00OutO00
+Options4=Actv01Stop00OutO00
+Options5=Actv01Stop00OutO00
+Options6=Actv01Stop00OutO00
+Options7=Actv01Stop00OutO00
+Options8=Actv01Stop00OutO00
+Options9=Actv01Stop00OutO00
+Outgoing0=Pres02000FPRESET SELECTOR
+Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="20"/><Key Release="Y" VK="20"/></Keys></Outgoing>
+Outgoing10=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="&lt;"/><Key Char="C"/><Key Char="o"/><Key Char="m"/><Key Char="p"/><Key Char="o"/><Key Char="n"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char=" "/><Key Char="i"/><Key Char="d"/><Key Char="="/><Key Char="&quot;"/><Key Char="r"/><Key Char="e"/><Key Char="a"/><Key Char="c"/><Key Char="t"/><Key Char="o"/><Key Char="r"/><Key Char="&quot;"/><Key Char=" "/><Key Char="t"/><Key Char="y"/><Key Char="p"/><Key Char="e"/><Key Char="="/><Key Char="&quot;"/><Key Char="r"/><Key Char="e"/><Key Char="a"/><Key Char="c"/><Key Char="t"/><Key Char="o"/><Key Char="r"/><Key Char="&quot;"/><Key Char="/"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/></Keys></Outgoing>
+Outgoing11=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="&lt;"/><Key Char="A"/><Key Char="d"/><Key Char="d"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char="r"/><Key Char="e"/><Key Char="a"/><Key Char="g"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char="="/><Key Char="&quot;"/><Key Char="&quot;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char="v"/><Key Char="e"/><Key Char="s"/><Key Char="s"/><Key Char="e"/><Key Char="l"/><Key Char="="/><Key Char="&quot;"/><Key Char="&quot;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char="v"/><Key Char="o"/><Key Char="l"/><Key Char="u"/><Key Char="m"/><Key Char="e"/><Key Char="="/><Key Char="&quot;"/><Key Char="&quot;"/><Key Char=" "/><Key Char="/"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/></Keys></Outgoing>
+Outgoing12=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="&lt;"/><Key Char="H"/><Key Char="e"/><Key Char="a"/><Key Char="t"/><Key Char="C"/><Key Char="h"/><Key Char="i"/><Key Char="l"/><Key Char="l"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="t"/><Key Char="e"/><Key Char="m"/><Key Char="p"/><Key Char="="/><Key Char="&quot;"/><Key Char="2"/><Key Char="5"/><Key Char=" "/><Key Unicode="65533"/><Key Unicode="65533"/><Key Char="C"/><Key Char="&quot;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="t"/><Key Char="i"/><Key Char="m"/><Key Char="e"/><Key Char="="/><Key Char="&quot;"/><Key Char="0"/><Key Char=" "/><Key Char="s"/><Key Char="&quot;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="s"/><Key Char="t"/><Key Char="i"/><Key Char="r"/><Key Char="="/><Key Char="&quot;"/><Key Char="T"/><Key Char="r"/><Key Char="u"/><Key Char="e"/><Key Char="&quot;"/><Key Char=" "/><Key Char="/"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/></Keys></Outgoing>
+Outgoing13=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="&lt;"/><Key Char="T"/><Key Char="r"/><Key Char="a"/><Key Char="n"/><Key Char="s"/><Key Char="f"/><Key Char="e"/><Key Char="r"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="f"/><Key Char="r"/><Key Char="o"/><Key Char="m"/><Key Char="_"/><Key Char="v"/><Key Char="e"/><Key Char="s"/><Key Char="s"/><Key Char="e"/><Key Char="l"/><Key Char="="/><Key Char="&quot;"/><Key Char="&quot;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="t"/><Key Char="o"/><Key Char="_"/><Key Char="v"/><Key Char="e"/><Key Char="s"/><Key Char="s"/><Key Char="e"/><Key Char="l"/><Key Char="="/><Key Char="&quot;"/><Key Char="&quot;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="v"/><Key Char="o"/><Key Char="l"/><Key Char="u"/><Key Char="m"/><Key Char="e"/><Key Char="="/><Key Char="&quot;"/><Key Char="&quot;"/><Key Char=" "/><Key Char="/"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/></Keys></Outgoing>
+Outgoing14=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char="&lt;"/><Key Char="X"/><Key Char="D"/><Key Char="L"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char="&lt;"/><Key Char="S"/><Key Char="y"/><Key Char="n"/><Key Char="t"/><Key Char="h"/><Key Char="e"/><Key Char="s"/><Key Char="i"/><Key Char="s"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="H"/><Key Char="a"/><Key Char="r"/><Key Char="d"/><Key Char="w"/><Key Char="a"/><Key Char="r"/><Key Char="e"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="C"/><Key Char="o"/><Key Char="m"/><Key Char="p"/><Key Char="o"/><Key Char="n"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char=" "/><Key Char="i"/><Key Char="d"/><Key Char="="/><Key Char="&quot;"/><Key Char="r"/><Key Char="e"/><Key Char="a"/><Key Char="c"/><Key Char="t"/><Key Char="o"/><Key Char="r"/><Key Char="&quot;"/><Key Char=" "/><Key Char="t"/><Key Char="y"/><Key Char="p"/><Key Char="e"/><Key Char="="/><Key Char="&quot;"/><Key Char="r"/><Key Char="e"/><Key Char="a"/><Key Char="c"/><Key Char="t"/><Key Char="o"/><Key Char="r"/><Key Char="&quot;"/><Key Char="/"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="/"/><Key Char="H"/><Key Char="a"/><Key Char="r"/><Key Char="d"/><Key Char="w"/><Key Char="a"/><Key Char="r"/><Key Char="e"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="R"/><Key Char="e"/><Key Char="a"/><Key Char="g"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char="s"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="R"/><Key Char="e"/><Key Char="a"/><Key Char="g"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char=" "/><Key Char="n"/><Key Char="a"/><Key Char="m"/><Key Char="e"/><Key Char="="/><Key Char="&quot;"/><Key Char="w"/><Key Char="a"/><Key Char="t"/><Key Char="e"/><Key Char="r"/><Key Char="&quot;"/><Key Char=" "/><Key Char="r"/><Key Char="o"/><Key Char="l"/><Key Char="e"/><Key Char="="/><Key Char="&quot;"/><Key Char="s"/><Key Char="o"/><Key Char="l"/><Key Char="v"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char="&quot;"/><Key Char="/"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="/"/><Key Char="R"/><Key Char="e"/><Key Char="a"/><Key Char="g"/><Key Char="e"/><Key Char="n"/><Key Char="t"/><Key Char="s"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="P"/><Key Char="r"/><Key Char="o"/><Key Char="c"/><Key Char="e"/><Key Char="d"/><Key Char="u"/><Key Char="r"/><Key Char="e"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char=" "/><Key Char="&lt;"/><Key Char="/"/><Key Char="P"/><Key Char="r"/><Key Char="o"/><Key Char="c"/><Key Char="e"/><Key Char="d"/><Key Char="u"/><Key Char="r"/><Key Char="e"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char="&lt;"/><Key Char="/"/><Key Char="S"/><Key Char="y"/><Key Char="n"/><Key Char="t"/><Key Char="h"/><Key Char="e"/><Key Char="s"/><Key Char="i"/><Key Char="s"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/><Key Char="&lt;"/><Key Char="/"/><Key Char="X"/><Key Char="D"/><Key Char="L"/><Key Char="&gt;"/><Key VK="13"/><Key Release="Y" VK="13"/><Key Ext="Y" VK="36"/><Key Release="Y" Ext="Y" VK="36"/></Keys></Outgoing>
+Outgoing2=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="37"/><Key Release="Y" Ext="Y" VK="37"/></Keys></Outgoing>
+Outgoing3=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="38"/><Key Release="Y" Ext="Y" VK="38"/></Keys></Outgoing>
+Outgoing4=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="38"/><Key Release="Y" Ext="Y" VK="38"/></Keys></Outgoing>
+Outgoing5=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="40"/><Key Release="Y" Ext="Y" VK="40"/></Keys></Outgoing>
+Outgoing6=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="39"/><Key Release="Y" Ext="Y" VK="39"/></Keys></Outgoing>
+Outgoing7=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="8"/><Key Release="Y" VK="8"/></Keys></Outgoing>
+Outgoing8=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="13"/><Key Release="Y" VK="13"/></Keys></Outgoing>
+Outgoing9=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Char=" "/></Keys></Outgoing>
+PresetSwitchIgnore=0
+
+[Project]
+Author=Daniel Gahler
+Comments=Typing individual letters with EPiano
+DefaultInPorts=MIDA00010014Roland Digital Piano
+DefaultOutPorts=MIDA0000
+Version=2
+
+[Signatures]
+SigName-1=[Midi Translator Pro Internal]
+Signature-1=UZlc+lrJaNbhzQLI8CFiFxg2+NxMvDe65uo71onu8M2dz6vEHvNt7izSvIrYovY75EyoaxvAG6yivPDrMum9onGkRHggKUPAv7EgtpYnaMagvTl4g7ZBcGm47PTXHiRE8SVy9Ri85z4gu2a5OVBS/V/HYcZCxXgxySzeW1PNMfI=
+SignedBy-1=University of Glasgow
+
